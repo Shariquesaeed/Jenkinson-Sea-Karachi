@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <link rel="icon" type="image/x-icon" href="./Assets/images.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- fb insta footer link -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+
+
+
+</head>
+<body>
+    <!-- Navbar starts -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <div class="pogo"><img src="./Assets/images.png" alt=""></div>
+          <a class="navbar-brand" href="#">Jenkinsons Sea Life</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="#gallery">gallery</a>
+              <a class="nav-link" href="#faq">FAQs</a>
+</div>
+            </div>
+          </div>
+        </div>
+        
+      </nav>
+            <br><br><br><br>
+         <h1 style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 25px;">Sign me Up Before book your E-Ticket</h1>
+      <section class="signup" id="signup">
+        <br><br><br>
+                <p style="align-items: first baseline; margin-left: 36%;">please fill this</p>
+        <!-- <h2 class="text-center">Sign up Before book your ></h2> -->
+        <form class="form" action="#home" onsubmit="return bookvalidation()">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your Name "> <br>
+            <span id="usererror" class="text-danger"></span>
+
+            <input class="form-input" type="email" name="email" id="email" placeholder="Enter Your Email "><br>
+            <span id="emailerror" class="text-danger"></span>
+<!--             
+            <input class="form-input" type="password" name="pwd" id="pwd" placeholder="Enter Your Password "><br>
+            <span id="pwderror" class="text-danger"></span>
+
+            <input class="form-input" type="password" name="cpwd" id="cpwd" placeholder="confirm password "><br>
+            <span id="cperror" class="text-danger"></span>  -->
+ 
+
+            <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter Your Phone "><br>
+            <span id="mobileerror" class="text-danger"></span> 
+
+
+            
+            <!-- <textarea class="form-input" name="" id="msg" cols="30" rows="10"
+                placeholder="Ellaborate your Concern"></textarea> <br>
+                <span id="msgcheck" class="text-danger"></span> <br> -->
+                <br>
+            <button class="btn btn-sm btn-dark">Book</button>
+
+        </form>
+      
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </section>
+       <!-- Footer Starts -->
+       <footer class="background">
+    </footer>
+     <footer class="footers">
+         <div class="container">
+             <div class="row">
+                 <div class="footer-cols">
+                     <h4>Site Map</h4>
+                     <ul>
+                         <li><a href="#">home</a></li>
+                         <li><a href="#">about</a></li>
+                         <li><a href="#">contact</a></li>
+                         <li><a href="#">gallery</a></li>
+     
+                     </ul>
+                 </div>
+                 <div class="footer-cols">
+                     <h4>Location</h4>
+                     <ul>
+                         <li><a href="./map.html">Google Map</a></li>
+                         
+     
+                     </ul>
+                 </div>
+                 <div class="footer-cols">
+                     <h4>Get help</h4>
+                     <ul>
+                         <li><a href="#">FAQ</a></li>
+                     </ul>
+                 </div>
+                 <div class="footer-cols">
+                     <h4>follow us</h4>
+                     <div class="social-links">
+                         <a href="https://www.facebook.com/jenksaquarium"><i class="fab fa-facebook-f"></i></a>
+                         <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+                         <a href="https://www.instagram.com/jenkinsonsaquarium/"><i class="fab fa-instagram"></i></a>
+                         <a href="https://www.linkedin.com/company/jenkinson%E2%80%99s-aquarium"><i class="fab fa-linkedin-in"></i></a>
+                     </div>
+                     <p class="text-footer">
+                         Copyright &copy; 2024 - www.jenkinsonsealife.com - All rights reserved
+                     </p>
+                 
+                 </div>
+             </div>
+         </div>
+    </footer>
+</body>
+<script>
+    function bookvalidation()
+        {
+            //getting values from textboxes
+            var u = document.getElementById("name").value ;
+            var e = document.getElementById("email").value ;
+            // var p = document.getElementById("pwd").value ;
+            // var cp = document.getElementById("cpwd").value ;
+            var m = document.getElementById("phone").value ;
+            // validate/check values are correct or not
+            var usercheck = /^[a-zA-Z. ]{3,20}$/ ;
+            var emailcheck = /^[a-zA-Z_]{3,}@[a-zA-Z]{3,}[.]{1}[a-zA-Z.]{2,6}$/ ;
+            var mobilecheck = /^[0-9]{11}$/;
+            // var passcheck = /^(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$/;
+            if(usercheck.test(u) )
+            {
+                document.getElementById("usererror").innerHTML = "";
+            }
+            else
+            {
+                document.getElementById("usererror").innerHTML = " **Invalid  User Name** " ;
+                return false;
+            }
+            if(emailcheck.test(e) )
+            {
+                document.getElementById("emailerror").innerHTML = "";
+            }
+            else
+            {
+                document.getElementById("emailerror").innerHTML = " **Invalid  Email** " ;
+                return false;
+            }
+         
+            if(mobilecheck.test(m) )
+            {
+                document.getElementById("mobileerror").innerHTML = "";
+            }
+            else
+            {
+                document.getElementById("mobileerror").innerHTML = " **Invalid Mobile Number** " ;
+                return false;
+            }
+            // localStorage.setItem("Email",e);
+            // localStorage.setItem("Password",p);
+            // localStorage.setItem("UserName",u);
+            alert("Thank you very much you have got your ticket ") ;
+        }
+       
+        
+</script>
+
+</html>
